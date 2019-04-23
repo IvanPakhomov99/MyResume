@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ tag pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
 
 <div class="panel panel-primary">
@@ -12,26 +13,38 @@
 				<div class="timeline-badge danger">
 					<i class="fa fa-briefcase"></i>
 				</div>
+				<c:forEach var="practic" items="${profile.practics}">
 				<div class="timeline-panel">
 					<div class="timeline-heading">
-						<h4 class="timeline-title">Java Advanced Course at DevStudy.net</h4>
+						<h4 class="timeline-title">${practic.position} at ${practic.company}</h4>
 						<p>
-							<small class="dates"><i class="fa fa-calendar"></i> Mar 2016 - <strong class="label label-danger">Current</strong> </small>
+							<small class="dates"><i class="fa fa-calendar"></i> ${practic.getBeginDate()} -
+								<c:choose>
+									<c:when test = "${practic.finishDate != null}">
+										<strong class="label label-danger">${practic.getFinishDate()}</strong>
+									</c:when>
+									<c:otherwise>
+										<strong class="label label-danger">Current</strong>
+									</c:otherwise>
+								</c:choose>
+							</small>
 						</p>
 					</div>
 					<div class="timeline-body">
 						<p>
-							<strong>Responsibilities included:</strong> Developing the web application 'online-resume' using bootstrap HTML template, downloaded from
-							intenet. Populating database by test data and uploading web project to AWS EC2 instance
+							<strong>Responsibilities included:</strong> ${practic.getResponsibilities()}
+						</p>
+						<c:if test="${practic.getDemo()!= null && practic.getSrc()!=null}">
+						<p>
+							<strong>Demo: </strong><a href="http://LINK_TO_DEMO_SITE">${practic.getDemo()}</a>
 						</p>
 						<p>
-							<strong>Demo: </strong><a href="http://LINK_TO_DEMO_SITE">http://LINK_TO_DEMO_SITE</a>
+							<strong>Source code: </strong><a href="https://github.com/TODO">${practic.getSrc()}</a>
 						</p>
-						<p>
-							<strong>Source code: </strong><a href="https://github.com/TODO">https://github.com/TODO</a>
-						</p>
+						</c:if>
 					</div>
 				</div>
+				</c:forEach>
 			</li>
 		</ul>
 	</div>

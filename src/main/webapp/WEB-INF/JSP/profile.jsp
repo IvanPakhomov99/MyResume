@@ -16,7 +16,7 @@
 			<resume:profile-skills />
 			<resume:profile-practics />
 			<resume:profile-certificates/>
-			<resume:profile-cources/>
+			<resume:profile-courses/>
 			<resume:profile-education />
 		</div>
 		<div class="col-xs-12 visible-xs-block">

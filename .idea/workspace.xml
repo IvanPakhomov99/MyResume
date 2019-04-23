@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2beb675-ffe9-457c-9a84-4ccdcc7eb59e" name="Default Changelist" comment="Recommit resume project.&#10;Spring Core, Spring MVC, ORM(Jpa, hibernate, SpringData), Validation + Services.">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/JSP/fragment/profile-items.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/fragment-template.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/large-loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/annotations/constraints/Adulthood.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/annotations/constraints/EnglishLanguage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/annotations/constraints/FieldMatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/annotations/constraints/FirstFieldLessThanSecond.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/annotations/constraints/MinDigitCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/annotations/constraints/MinLowerCharCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/annotations/constraints/MinSpecCharCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/annotations/constraints/MinUpperCharCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/annotations/constraints/PasswordStrength.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/annotations/constraints/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/JPAConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/MVCConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/MVCConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/ResumeWebApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/ResumeWebApplicationInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/ServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/ServiceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/controller/PublicDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/controller/PublicDataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/AbstractEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/AbstractFinishDateEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/AbstractFinishDateEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Certificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Certificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Contacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Education.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Education.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Hobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Hobby.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Practic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Practic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/ProfileEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/ProfileEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/ProfileRestore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/ProfileRestore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Skill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/SkillCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/SkillCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/exceptions/CantCompleteClientRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/filter/AbstractFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/filter/AbstractFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/filter/ResumeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/filter/ResumeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/form/SignUpForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/form/SignUpForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/form/SkillForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/form/SkillForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/listener/ApplicationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/listener/ApplicationListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/model/AbstractModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/model/AbstractModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/model/LanguageLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/model/LanguageLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/model/LanguageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/model/LanguageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/repository/storage/ProfileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/repository/storage/ProfileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/repository/storage/ProfileRestoreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/repository/storage/ProfileRestoreRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/repository/storage/SkillCategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/repository/storage/SkillCategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/EditProfileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/EditProfileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/FindProfileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/FindProfileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/EditProfileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/EditProfileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/FindProfileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/FindProfileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/RemoveNotCompletedProfileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/RemoveNotCompletedProfileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/util/DataUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/util/DataUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/validator/EnglishLanguageConstraintValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/devstudy/resume/validator/EnglishLanguageConstraintValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/JSP/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/JSP/profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/JSP/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/JSP/profiles.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/section/css.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/section/css.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/section/js.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/section/js.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/page-template.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/page-template.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/resume-common.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/resume-ex.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/app.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="resume.iml" />
+    <ignored path=".idea/dataSources/45284fcc-691a-431a-abc8-30f9de913f35/storage_v2/_src_/database/resume.LchNyA/schema/public.abK9xQ.meta" />
+    <ignored path=".idea/dataSources/45284fcc-691a-431a-abc8-30f9de913f35/storage_v2/_src_/database/resume.LchNyA.meta" />
+    <ignored path=".idea/dataSources/45284fcc-691a-431a-abc8-30f9de913f35.xml" />
+    <ignored path=".idea/compiler.xml" />
+    <ignored path=".idea/dataSources.xml" />
+    <ignored path=".idea/encodings.xml" />
+    <ignored path=".idea/misc.xml" />
+    <ignored path=".idea/uiDesigner.xml" />
+    <ignored path="src/main/webapp/WEB-INF/classes/i18n/messages.properties" />
+    <ignored path="src/main/webapp/WEB-INF/classes/META-INF/resume.kotlin_module" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/annotations/constraints/Adulthood.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/annotations/constraints/EnglishLanguage.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/annotations/constraints/FieldMatch$List.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/annotations/constraints/FieldMatch.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/annotations/constraints/FirstFieldLessThanSecond$List.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/annotations/constraints/FirstFieldLessThanSecond.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/annotations/constraints/MinDigitCount.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/annotations/constraints/MinLowerCharCount.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/annotations/constraints/MinSpecCharCount.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/annotations/constraints/MinUpperCharCount.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/annotations/constraints/PasswordStrength.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/annotations/constraints/Phone.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/configuration/JPAConfig.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/configuration/MVCConfig.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/configuration/ResumeWebApplicationInitializer$1.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/configuration/ResumeWebApplicationInitializer.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/configuration/ServiceConfig.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/controller/EditProfileController.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/controller/PublicDataController.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/entity/AbstractEntity.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/entity/AbstractFinishDateEntity.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/entity/Certificate.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/entity/Contacts.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/entity/Course.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/entity/Education.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/entity/Hobby.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/entity/Language.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/entity/Practic.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/entity/Profile.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/entity/ProfileEntity.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/entity/ProfileRestore.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/entity/Skill.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/entity/SkillCategory.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/exceptions/CantCompleteClientRequestException.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/filter/AbstractFilter.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/filter/ResumeFilter.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/form/SignUpForm.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/form/SkillForm.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/listener/ApplicationListener.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/model/AbstractModel.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/model/LanguageLevel$PersistJPAConverter.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/model/LanguageLevel.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/model/LanguageType$PersistJPAConverter.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/model/LanguageType.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/repository/storage/ProfileRepository.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/repository/storage/ProfileRestoreRepository.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/repository/storage/SkillCategoryRepository.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/service/impl/EditProfileServiceImpl.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/service/impl/FindProfileServiceImpl.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/service/impl/RemoveNotCompletedProfileService.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/service/EditProfileService.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/service/FindProfileService.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/testenv/TestDataGenerator$1.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/testenv/TestDataGenerator$2.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/testenv/TestDataGenerator$Certificate.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/testenv/TestDataGenerator$Course.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/testenv/TestDataGenerator$Profile.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/testenv/TestDataGenerator$ProfileConfig.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/testenv/TestDataGenerator.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/util/DataUtil.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/util/SecurityUtil.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/net/devstudy/resume/validator/EnglishLanguageConstraintValidator.class" />
+    <ignored path="src/main/webapp/WEB-INF/classes/application.properties" />
+    <ignored path="src/main/webapp/WEB-INF/classes/logback.xml" />
+    <ignored path="src/main/webapp/WEB-INF/classes/logic.properties" />
+    <ignored path="src/main/webapp/media/avatar/0b638665-5dc6-4f6e-b60e-2bd610b10cdf-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/0b638665-5dc6-4f6e-b60e-2bd610b10cdf.jpg" />
+    <ignored path="src/main/webapp/media/avatar/0ec42030-73a5-4e2d-97e3-df3effcfd605-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/0ec42030-73a5-4e2d-97e3-df3effcfd605.jpg" />
+    <ignored path="src/main/webapp/media/avatar/12f881aa-8705-459f-a5f3-955473bbeac3-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/12f881aa-8705-459f-a5f3-955473bbeac3.jpg" />
+    <ignored path="src/main/webapp/media/avatar/153f0c36-7727-443d-9dda-8e94fde9aba8-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/153f0c36-7727-443d-9dda-8e94fde9aba8.jpg" />
+    <ignored path="src/main/webapp/media/avatar/1633e8e4-61ab-4ac7-8c29-45c4272ce091-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/1633e8e4-61ab-4ac7-8c29-45c4272ce091.jpg" />
+    <ignored path="src/main/webapp/media/avatar/1c7c476c-5832-41a1-8d18-7cdc595325e3-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/1c7c476c-5832-41a1-8d18-7cdc595325e3.jpg" />
+    <ignored path="src/main/webapp/media/avatar/1fae8d0f-c3a5-4197-aa22-84a62793ff3a-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/1fae8d0f-c3a5-4197-aa22-84a62793ff3a.jpg" />
+    <ignored path="src/main/webapp/media/avatar/2555d646-4e06-4826-b761-5bdfe57271ed-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/2555d646-4e06-4826-b761-5bdfe57271ed.jpg" />
+    <ignored path="src/main/webapp/media/avatar/2bd1f9d6-e16c-4c49-9896-c32d0a48bbd8-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/2bd1f9d6-e16c-4c49-9896-c32d0a48bbd8.jpg" />
+    <ignored path="src/main/webapp/media/avatar/424bc21a-1850-486f-be5a-0f0e5f2c5684-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/424bc21a-1850-486f-be5a-0f0e5f2c5684.jpg" />
+    <ignored path="src/main/webapp/media/avatar/4468d2b9-0bbd-47dc-a58d-7761a1e61281-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/4468d2b9-0bbd-47dc-a58d-7761a1e61281.jpg" />
+    <ignored path="src/main/webapp/media/avatar/48ee74aa-3217-4858-b614-ec42174a664b-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/48ee74aa-3217-4858-b614-ec42174a664b.jpg" />
+    <ignored path="src/main/webapp/media/avatar/4972a4bb-8cff-4ce6-be53-e7b702bef008-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/4972a4bb-8cff-4ce6-be53-e7b702bef008.jpg" />
+    <ignored path="src/main/webapp/media/avatar/4c37a4d2-15a8-43d8-936f-5443fe11981d-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/4c37a4d2-15a8-43d8-936f-5443fe11981d.jpg" />
+    <ignored path="src/main/webapp/media/avatar/4c4d6fd4-dbfa-49d8-af3f-d210a33d90cf-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/4c4d6fd4-dbfa-49d8-af3f-d210a33d90cf.jpg" />
+    <ignored path="src/main/webapp/media/avatar/5054e913-d0fc-4d3d-98d0-2ddeb62cf2a3-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/5054e913-d0fc-4d3d-98d0-2ddeb62cf2a3.jpg" />
+    <ignored path="src/main/webapp/media/avatar/58443b5e-6c9b-445c-87fc-d0611afd579a-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/58443b5e-6c9b-445c-87fc-d0611afd579a.jpg" />
+    <ignored path="src/main/webapp/media/avatar/5e26ef1d-8f63-4a05-a703-6af4a521f908-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/5e26ef1d-8f63-4a05-a703-6af4a521f908.jpg" />
+    <ignored path="src/main/webapp/media/avatar/60d13b2a-2ae9-4750-a4d5-74a4b93228a5-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/60d13b2a-2ae9-4750-a4d5-74a4b93228a5.jpg" />
+    <ignored path="src/main/webapp/media/avatar/64c2f000-dfb4-4ebe-8b54-f4726cf425fd-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/64c2f000-dfb4-4ebe-8b54-f4726cf425fd.jpg" />
+    <ignored path="src/main/webapp/media/avatar/677182e9-725d-4fac-b24c-7d324d3afc14-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/677182e9-725d-4fac-b24c-7d324d3afc14.jpg" />
+    <ignored path="src/main/webapp/media/avatar/6b2b47b8-0d01-4023-96f7-86d32b75bddc-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/6b2b47b8-0d01-4023-96f7-86d32b75bddc.jpg" />
+    <ignored path="src/main/webapp/media/avatar/72432d39-7384-41d1-ad8c-19cdcb6feefc-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/72432d39-7384-41d1-ad8c-19cdcb6feefc.jpg" />
+    <ignored path="src/main/webapp/media/avatar/75df1863-87b1-4069-9c6f-bef4afbf9b0b-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/75df1863-87b1-4069-9c6f-bef4afbf9b0b.jpg" />
+    <ignored path="src/main/webapp/media/avatar/79393a26-0217-41ba-9428-48c0477d29b5-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/79393a26-0217-41ba-9428-48c0477d29b5.jpg" />
+    <ignored path="src/main/webapp/media/avatar/7ed6c45f-1d84-4713-91b3-822fd6d2ecf4-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/7ed6c45f-1d84-4713-91b3-822fd6d2ecf4.jpg" />
+    <ignored path="src/main/webapp/media/avatar/81f9581d-751e-4191-bbfa-77e1dd1c10d7-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/81f9581d-751e-4191-bbfa-77e1dd1c10d7.jpg" />
+    <ignored path="src/main/webapp/media/avatar/88ed5f4e-52ea-44df-a89d-2f80ec5de8b0-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/88ed5f4e-52ea-44df-a89d-2f80ec5de8b0.jpg" />
+    <ignored path="src/main/webapp/media/avatar/901a9d1a-4c81-4482-91cd-c9ee6f439cce-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/901a9d1a-4c81-4482-91cd-c9ee6f439cce.jpg" />
+    <ignored path="src/main/webapp/media/avatar/92e034cd-2546-4d36-a5b9-46c3cfe65b6e-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/92e034cd-2546-4d36-a5b9-46c3cfe65b6e.jpg" />
+    <ignored path="src/main/webapp/media/avatar/966c3d5c-30ac-42cb-a65f-9fb8dddefcd3-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/966c3d5c-30ac-42cb-a65f-9fb8dddefcd3.jpg" />
+    <ignored path="src/main/webapp/media/avatar/96cb5d54-f9c5-4552-a779-eada5ab9f93b-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/96cb5d54-f9c5-4552-a779-eada5ab9f93b.jpg" />
+    <ignored path="src/main/webapp/media/avatar/a5cef35b-63cb-4255-b236-ad676a4563c4-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/a5cef35b-63cb-4255-b236-ad676a4563c4.jpg" />
+    <ignored path="src/main/webapp/media/avatar/b33dc80f-eabc-46a4-add8-309d85ee7d41-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/b33dc80f-eabc-46a4-add8-309d85ee7d41.jpg" />
+    <ignored path="src/main/webapp/media/avatar/c5ddf4ab-634e-4606-a3c6-bf0a1663049e-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/c5ddf4ab-634e-4606-a3c6-bf0a1663049e.jpg" />
+    <ignored path="src/main/webapp/media/avatar/c98d6d18-9a11-4e97-85b1-d2e15ef91e2c-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/c98d6d18-9a11-4e97-85b1-d2e15ef91e2c.jpg" />
+    <ignored path="src/main/webapp/media/avatar/c9e2ab5d-ca31-4f23-8748-9f55e5c7dd26-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/c9e2ab5d-ca31-4f23-8748-9f55e5c7dd26.jpg" />
+    <ignored path="src/main/webapp/media/avatar/cdab8f85-afa7-4582-9833-81ef6c41b0a3-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/cdab8f85-afa7-4582-9833-81ef6c41b0a3.jpg" />
+    <ignored path="src/main/webapp/media/avatar/cf858ac8-40b4-4d7c-aa2a-8eb8c53beef3-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/cf858ac8-40b4-4d7c-aa2a-8eb8c53beef3.jpg" />
+    <ignored path="src/main/webapp/media/avatar/d1fbc1a4-bed0-4d8c-8492-5299f9690809-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/d1fbc1a4-bed0-4d8c-8492-5299f9690809.jpg" />
+    <ignored path="src/main/webapp/media/avatar/d264a4f0-f0d9-470d-b576-bd4520c0f178-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/d264a4f0-f0d9-470d-b576-bd4520c0f178.jpg" />
+    <ignored path="src/main/webapp/media/avatar/d71e9138-dc78-41db-b3c5-06c750b945a8-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/d71e9138-dc78-41db-b3c5-06c750b945a8.jpg" />
+    <ignored path="src/main/webapp/media/avatar/d8a9ccd3-5fd1-480a-b921-c459c507a690-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/d8a9ccd3-5fd1-480a-b921-c459c507a690.jpg" />
+    <ignored path="src/main/webapp/media/avatar/dbeab291-2a3d-46f1-9495-18513597abb5-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/dbeab291-2a3d-46f1-9495-18513597abb5.jpg" />
+    <ignored path="src/main/webapp/media/avatar/e4535b9a-21ba-4a08-aabe-c98f1b85afdb-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/e4535b9a-21ba-4a08-aabe-c98f1b85afdb.jpg" />
+    <ignored path="src/main/webapp/media/avatar/f431b83d-72c4-4ce5-9319-e1f11e811393-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/f431b83d-72c4-4ce5-9319-e1f11e811393.jpg" />
+    <ignored path="src/main/webapp/media/avatar/f9a0ad8b-353c-47a7-9bb7-dc5b0c9055fc-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/f9a0ad8b-353c-47a7-9bb7-dc5b0c9055fc.jpg" />
+    <ignored path="src/main/webapp/media/avatar/ffd7d4b9-0475-4534-9c8f-01493ee8a190-sm.jpg" />
+    <ignored path="src/main/webapp/media/avatar/ffd7d4b9-0475-4534-9c8f-01493ee8a190.jpg" />
+    <ignored path="src/main/webapp/media/certificates/02585a31-dbc9-4fb9-8c93-2a66404cac55-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/02585a31-dbc9-4fb9-8c93-2a66404cac55.jpg" />
+    <ignored path="src/main/webapp/media/certificates/0388ff36-cbb0-4280-89c4-78cde6671b31-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/0388ff36-cbb0-4280-89c4-78cde6671b31.jpg" />
+    <ignored path="src/main/webapp/media/certificates/0488b59d-d064-4658-ad0b-4b9ece5850cb-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/0488b59d-d064-4658-ad0b-4b9ece5850cb.jpg" />
+    <ignored path="src/main/webapp/media/certificates/04c5a137-c878-414f-8a15-117becbf0dec-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/04c5a137-c878-414f-8a15-117becbf0dec.jpg" />
+    <ignored path="src/main/webapp/media/certificates/1246d3ee-5881-4a39-a5bf-5f0ccb4edd09-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/1246d3ee-5881-4a39-a5bf-5f0ccb4edd09.jpg" />
+    <ignored path="src/main/webapp/media/certificates/12a0d427-84c2-4272-b631-1d4cc74fe729-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/12a0d427-84c2-4272-b631-1d4cc74fe729.jpg" />
+    <ignored path="src/main/webapp/media/certificates/13452da9-9191-4516-a351-160a965baab6-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/13452da9-9191-4516-a351-160a965baab6.jpg" />
+    <ignored path="src/main/webapp/media/certificates/1e5f40e5-bbff-422b-9e0f-1dfcec8a6df9-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/1e5f40e5-bbff-422b-9e0f-1dfcec8a6df9.jpg" />
+    <ignored path="src/main/webapp/media/certificates/2b2e5842-2284-4e7f-b8c8-2728be644e08-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/2b2e5842-2284-4e7f-b8c8-2728be644e08.jpg" />
+    <ignored path="src/main/webapp/media/certificates/2ba989f4-845d-4c21-88c9-f076bd0aea8e-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/2ba989f4-845d-4c21-88c9-f076bd0aea8e.jpg" />
+    <ignored path="src/main/webapp/media/certificates/2d75a68a-9d17-46ab-b3e5-8602efee895f-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/2d75a68a-9d17-46ab-b3e5-8602efee895f.jpg" />
+    <ignored path="src/main/webapp/media/certificates/3339cbe2-d912-443d-8067-d98fd9fc4621-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/3339cbe2-d912-443d-8067-d98fd9fc4621.jpg" />
+    <ignored path="src/main/webapp/media/certificates/34dd390e-48ba-4c2f-9158-3d721619c149-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/34dd390e-48ba-4c2f-9158-3d721619c149.jpg" />
+    <ignored path="src/main/webapp/media/certificates/369818e2-a5b3-41c7-ba26-b931189aea78-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/369818e2-a5b3-41c7-ba26-b931189aea78.jpg" />
+    <ignored path="src/main/webapp/media/certificates/424d5a41-ead6-44be-a18c-944d574486ca-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/424d5a41-ead6-44be-a18c-944d574486ca.jpg" />
+    <ignored path="src/main/webapp/media/certificates/4677e061-b021-4500-ba57-b27c27aaac40-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/4677e061-b021-4500-ba57-b27c27aaac40.jpg" />
+    <ignored path="src/main/webapp/media/certificates/5b0ddc31-4175-47e9-83eb-f0a78012a2d6-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/5b0ddc31-4175-47e9-83eb-f0a78012a2d6.jpg" />
+    <ignored path="src/main/webapp/media/certificates/5d4f6812-39af-4e7a-b4a2-4e3f23cdb174-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/5d4f6812-39af-4e7a-b4a2-4e3f23cdb174.jpg" />
+    <ignored path="src/main/webapp/media/certificates/677feb91-65cd-4125-8544-b6abd8218233-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/677feb91-65cd-4125-8544-b6abd8218233.jpg" />
+    <ignored path="src/main/webapp/media/certificates/6cfad253-3d7f-4d95-b457-6ebab0cd717b-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/6cfad253-3d7f-4d95-b457-6ebab0cd717b.jpg" />
+    <ignored path="src/main/webapp/media/certificates/7483f0fe-fec7-4ef7-8156-a4d0cfccb73c-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/7483f0fe-fec7-4ef7-8156-a4d0cfccb73c.jpg" />
+    <ignored path="src/main/webapp/media/certificates/751783c7-537a-4582-a549-df4824d03228-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/751783c7-537a-4582-a549-df4824d03228.jpg" />
+    <ignored path="src/main/webapp/media/certificates/79b439b4-0b06-44f2-b7ea-6fe9fa55595d-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/79b439b4-0b06-44f2-b7ea-6fe9fa55595d.jpg" />
+    <ignored path="src/main/webapp/media/certificates/81a62a88-385a-455c-b95c-e5983dffab7d-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/81a62a88-385a-455c-b95c-e5983dffab7d.jpg" />
+    <ignored path="src/main/webapp/media/certificates/8d2abe73-7d2d-47c4-8840-025f51003df2-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/8d2abe73-7d2d-47c4-8840-025f51003df2.jpg" />
+    <ignored path="src/main/webapp/media/certificates/95ab62b2-d40b-4135-9b20-470a16da3db5-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/95ab62b2-d40b-4135-9b20-470a16da3db5.jpg" />
+    <ignored path="src/main/webapp/media/certificates/9ac52927-a2c4-4c04-83e3-ab54b2893245-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/9ac52927-a2c4-4c04-83e3-ab54b2893245.jpg" />
+    <ignored path="src/main/webapp/media/certificates/9bcd6a6d-bf18-4ddd-a00a-9959e4a691e4-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/9bcd6a6d-bf18-4ddd-a00a-9959e4a691e4.jpg" />
+    <ignored path="src/main/webapp/media/certificates/a157d391-34da-4933-8e38-3aa44158ac65-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/a157d391-34da-4933-8e38-3aa44158ac65.jpg" />
+    <ignored path="src/main/webapp/media/certificates/a26b1733-b510-49b9-950f-2e312ffac4b8-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/a26b1733-b510-49b9-950f-2e312ffac4b8.jpg" />
+    <ignored path="src/main/webapp/media/certificates/a8e3be47-5ac7-4fdf-82ac-d62dc9c9df31-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/a8e3be47-5ac7-4fdf-82ac-d62dc9c9df31.jpg" />
+    <ignored path="src/main/webapp/media/certificates/ab0fc7a9-b8cb-4312-a4d2-6a07c6a6b3f0-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/ab0fc7a9-b8cb-4312-a4d2-6a07c6a6b3f0.jpg" />
+    <ignored path="src/main/webapp/media/certificates/b79953cb-ebc0-46c5-bb9b-5fcd4a371598-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/b79953cb-ebc0-46c5-bb9b-5fcd4a371598.jpg" />
+    <ignored path="src/main/webapp/media/certificates/ba60ec3d-e379-46fe-8a49-8e440c320a46-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/ba60ec3d-e379-46fe-8a49-8e440c320a46.jpg" />
+    <ignored path="src/main/webapp/media/certificates/bf82635a-012f-49fd-a1ff-31b3a614ca43-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/bf82635a-012f-49fd-a1ff-31b3a614ca43.jpg" />
+    <ignored path="src/main/webapp/media/certificates/c656cb23-4978-4c30-bd8e-fa9557fd7c1c-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/c656cb23-4978-4c30-bd8e-fa9557fd7c1c.jpg" />
+    <ignored path="src/main/webapp/media/certificates/cad5b195-2517-46c8-b7d8-1823bba6acf5-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/cad5b195-2517-46c8-b7d8-1823bba6acf5.jpg" />
+    <ignored path="src/main/webapp/media/certificates/cc6e4079-1447-47c8-bd88-783a78ca8e5c-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/cc6e4079-1447-47c8-bd88-783a78ca8e5c.jpg" />
+    <ignored path="src/main/webapp/media/certificates/d2812d9e-c3ae-4952-8312-23b7770d2920-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/d2812d9e-c3ae-4952-8312-23b7770d2920.jpg" />
+    <ignored path="src/main/webapp/media/certificates/d5d546f5-4bb5-4cf1-bdc0-4fc2799ccc7e-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/d5d546f5-4bb5-4cf1-bdc0-4fc2799ccc7e.jpg" />
+    <ignored path="src/main/webapp/media/certificates/daa90a75-b487-49ac-96e8-7704841c7594-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/daa90a75-b487-49ac-96e8-7704841c7594.jpg" />
+    <ignored path="src/main/webapp/media/certificates/de31848c-2471-4508-904a-7805478ee8b9-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/de31848c-2471-4508-904a-7805478ee8b9.jpg" />
+    <ignored path="src/main/webapp/media/certificates/deadd77a-160d-4422-a8ab-77b0eb0e56a4-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/deadd77a-160d-4422-a8ab-77b0eb0e56a4.jpg" />
+    <ignored path="src/main/webapp/media/certificates/e3ab8176-0cf2-4cb9-975d-97752ec9bb79-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/e3ab8176-0cf2-4cb9-975d-97752ec9bb79.jpg" />
+    <ignored path="src/main/webapp/media/certificates/e51eb25b-5866-4663-94dc-cb00ee01b706-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/e51eb25b-5866-4663-94dc-cb00ee01b706.jpg" />
+    <ignored path="src/main/webapp/media/certificates/eb05a1b6-378e-4106-8b72-d6d30e0ba26b-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/eb05a1b6-378e-4106-8b72-d6d30e0ba26b.jpg" />
+    <ignored path="src/main/webapp/media/certificates/f649f995-cb39-4300-8e53-5b90d2ad6f8e-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/f649f995-cb39-4300-8e53-5b90d2ad6f8e.jpg" />
+    <ignored path="src/main/webapp/media/certificates/fec54772-946d-40d7-9dcf-1b14f6b1ef48-sm.jpg" />
+    <ignored path="src/main/webapp/media/certificates/fec54772-946d-40d7-9dcf-1b14f6b1ef48.jpg" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="resume@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="resume@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="resume@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="resume: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="resume@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="resume: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="resume@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="resume: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="resume@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="resume: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="resume@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="resume: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="profile: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/component/impl/ExecutorServiceFactoryBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/util/DataUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/util/SecurityUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/component/impl/ApplicationListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/NotificationManagerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/NotificationSenderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/FindProfileServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+              <folding>
+                <element signature="e#1244#1245#0" expanded="true" />
+                <element signature="e#1290#1291#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/EditProfileServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/repository/storage/ProfileRestoreRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="jsf" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>@author devstudy</find>
+      <find>totalPages</find>
+      <find>sqr</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Ivan Pakhomov\Java Juniour\Programs\projects\resume</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="IvanPakhomov" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/repository/search/ProfileSearchRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/ElasticSearchIndexingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/form/SignUpForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/JPAConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Skill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/form/SkillForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/ProfileRestore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/FindProfileService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/EditProfileService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/ProfileEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/AbstractFinishDateEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Profile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Practic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/AbstractEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Language.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Education.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/filter/AbstractFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/filter/ResumeFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Certificate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/listener/ApplicationListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Contacts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Hobby.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/repository/storage/ProfileRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/repository/storage/ProfileRestoreRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/repository/storage/SkillCategoryRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/model/AbstractModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/model/CurrentProfile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/model/LanguageLevel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/model/LanguageType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/RemoveNotCompletedProfileService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/util/DataUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/util/SecurityUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/notifications/notifications.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/model/NotificationMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/NotificationManagerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/NotificationManagerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/NotificationSenderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/NotificationSenderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/NotificationTemplateService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/component/NotificationContentResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/component/impl/NotificationContentResolverImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/NotificationTemplateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/EmailConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/AsyncEmailNotificationsenderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/component/impl/ApplicationListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/ResumeWebApplicationInitializer.java" />
+        <option value="$PROJECT_DIR$/src/dev/java/net/devstudy/resume/testenv/TestDataGenerator.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="104" />
+    <option name="y" value="97" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testenv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.0.4.RELEASE/spring-security-core-4.0.4.RELEASE.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20581396" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Ivan Pakhomov\Java Juniour\Programs\projects\resume\src\main\webapp\static\img" />
+      <recent name="C:\Ivan Pakhomov\Java Juniour\Programs\projects\resume\src\main\webapp\WEB-INF\JSP" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Ivan Pakhomov\Java Juniour\Programs\projects\resume\src\main\java\net\devstudy\resume\configuration" />
+      <recent name="C:\Ivan Pakhomov\Java Juniour\Programs\projects\resume\src\main\java\net\devstudy\resume\component\impl" />
+      <recent name="C:\Ivan Pakhomov\Java Juniour\Programs\projects\resume\Test" />
+      <recent name="C:\Ivan Pakhomov\Java Juniour\Programs\projects\resume\src\main\webapp\WEB-INF\tags" />
+      <recent name="C:\Ivan Pakhomov\Java Juniour\Programs\projects\resume\src\main\webapp\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.devstudy.resume.service.impl" />
+      <recent name="net.devstudy.resume.service" />
+      <recent name="net.devstudy.resume.repository.search" />
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="net.devstudy.resume.component.impl" />
+      <recent name="net.devstudy.resume.service.impl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.37">
+    <configuration name="MathTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MathTest" />
+      <module name="resume" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDataGenerator" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.devstudy.resume.testenv.TestDataGenerator" />
+      <module name="resume" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="resume:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_resume_8" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51363" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestDataGenerator" />
+      <item itemvalue="Application.MathTest" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.37" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MathTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2beb675-ffe9-457c-9a84-4ccdcc7eb59e" name="Default Changelist" comment="" />
+      <created>1552249495328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552249495328</updated>
+      <workItem from="1552249499421" duration="10000" />
+      <workItem from="1552249544913" duration="1044000" />
+      <workItem from="1552250622821" duration="15000" />
+      <workItem from="1552250729300" duration="7841000" />
+      <workItem from="1552297324232" duration="7291000" />
+      <workItem from="1552310911675" duration="3732000" />
+      <workItem from="1552319683204" duration="1530000" />
+      <workItem from="1552335773543" duration="3468000" />
+      <workItem from="1552422600883" duration="5710000" />
+      <workItem from="1552429125754" duration="1385000" />
+      <workItem from="1552484724972" duration="2182000" />
+      <workItem from="1552488360545" duration="2330000" />
+      <workItem from="1552577267398" duration="442000" />
+      <workItem from="1552580610977" duration="3673000" />
+      <workItem from="1552594920325" duration="908000" />
+      <workItem from="1552673905597" duration="3047000" />
+      <workItem from="1552916591325" duration="2715000" />
+      <workItem from="1552931980471" duration="6987000" />
+      <workItem from="1553018378861" duration="599000" />
+      <workItem from="1553084322083" duration="3095000" />
+      <workItem from="1553177764551" duration="673000" />
+      <workItem from="1553789965360" duration="1618000" />
+      <workItem from="1554131757555" duration="1446000" />
+      <workItem from="1554133611462" duration="1375000" />
+      <workItem from="1554891565589" duration="1174000" />
+      <workItem from="1554892862727" duration="6520000" />
+      <workItem from="1555247832678" duration="1399000" />
+      <workItem from="1555337656764" duration="17481000" />
+      <workItem from="1555722742214" duration="593000" />
+      <workItem from="1555863348820" duration="2396000" />
+      <workItem from="1555934986465" duration="725000" />
+      <workItem from="1555937297792" duration="1193000" />
+      <workItem from="1556046781494" duration="281000" />
+    </task>
+    <task id="LOCAL-00001" summary="Recommit resume project.&#10;Spring Core, Spring MVC, ORM(Jpa, hibernate, SpringData), Validation + Services.">
+      <created>1552393441901</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552393441901</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Recommit resume project.&#10;Spring Core, Spring MVC, ORM(Jpa, hibernate, SpringData), Validation + Services.">
+      <created>1552396146550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552396146550</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Recommit resume project.&#10;Spring Core, Spring MVC, ORM(Jpa, hibernate, SpringData), Validation + Services.">
+      <created>1552396380475</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552396380475</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="94878000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49800798" visible="true" weight="0.3496802" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Learn" order="4" weight="0.32995737" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" sideWeight="0.50199205" side_tool="true" weight="0.28464818" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.33152762" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.24918744" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3575298" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.1516793" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.18418202" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.18418202" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.17226435" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.16684724" />
+      <window_info anchor="bottom" auto_hide="true" id="Spring" order="14" show_stripe_button="false" weight="0.17984831" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" show_stripe_button="false" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.073027715" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Recommit resume project.&#10;Spring Core, Spring MVC, ORM(Jpa, hibernate, SpringData), Validation + Services." />
+    <option name="LAST_COMMIT_MESSAGE" value="Recommit resume project.&#10;Spring Core, Spring MVC, ORM(Jpa, hibernate, SpringData), Validation + Services." />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>profile.uid</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>profiles</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/annotation/constraints/MinDigitCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/annotation/constraints/MinSpecCharCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/annotation/constraints/MinUpperCharCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/annotation/constraints/PasswordStrength.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/annotation/constraints/Phone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/annotation/constraints/MinLowerCharCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/notifications/notifications.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/NotificationManagerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/NotificationSenderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/model/NotificationMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+          <folding>
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/component/NotificationContentResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/NotificationTemplateServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#631#660#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/MVCConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/ServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/ElasticSearchConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/EmailConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/java/net/devstudy/resume/testenv/TestDataGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="157" column="59" selection-start-line="157" selection-start-column="59" selection-end-line="157" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/controller/EditProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/ProfileEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="369" column="18" lean-forward="true" selection-start-line="369" selection-start-column="18" selection-end-line="369" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="2" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="147" column="21" lean-forward="true" selection-start-line="143" selection-start-column="8" selection-end-line="147" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar!/org/springframework/core/env/Environment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/AbstractEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/AbstractFinishDateEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/entity/Certificate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-740">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/AsyncEmailNotificationSenderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-dbcp2/2.1.1/commons-dbcp2-2.1.1.jar!/org/apache/commons/dbcp2/BasicDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="233" column="29" selection-start-line="233" selection-start-column="29" selection-end-line="233" selection-end-column="29" />
+          <folding>
+            <element signature="e#7612#7613#0" expanded="true" />
+            <element signature="e#7658#7659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/JPAConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/repository/storage/SkillCategoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/NotificationTemplateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/repository/storage/ProfileRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/EditProfileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/FindProfileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/configuration/ResumeWebApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/component/impl/NotificationContentResolverImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/component/impl/ExecutorServiceFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/util/DataUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/component/impl/ApplicationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/NotificationManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/NotificationSenderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/FindProfileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/service/impl/EditProfileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/repository/storage/ProfileRestoreRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/devstudy/resume/util/SecurityUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>resume:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20581396" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (resume)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20581396" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jquery-latest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20581396" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8 (2)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20581396" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>resume</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20581396" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.slf4j:jcl-over-slf4j:1.7.19</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20581396" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
